@@ -1,0 +1,9 @@
+Host gitlab
+	HostName gitlab.com
+	User git
+	IdentityFile ~/.shh/jcambro_rsa
+
+Host caen
+	HostName login.engin.umich.edu
+	User jcambro
+	Compression yes
